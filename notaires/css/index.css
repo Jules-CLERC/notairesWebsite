@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+@media only screen and (orientation: landscape) {
+    #mapsDiv > p {
+        font-size: 35px;
+    }
+
+    #welcomeDivText1 {
+        font-size: 40px;
+    }
+
+    #welcomeDivText2 {
+        font-size: 27px;
+    }
+
+    #buttonWelcomeDiv {
+        padding: 15px 32px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #mapsDiv > p {
+        font-size: 60px;
+    }
+
+    #welcomeDivText1 {
+        font-size: 70px;
+    }
+
+    #welcomeDivText2 {
+        font-size: 50px;
+    }
+
+    #buttonWelcomeDiv {
+        padding: 28px 60px;
+        font-size: 36px;
+    }
+}
+
+#welcomeDiv {
+    width: 100vw;
+    height: 80vh;
+
+    background: no-repeat center url("../images/office-plan-large.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#welcomeDivText {
+    background: rgb(24, 186, 225);
+    background: linear-gradient(90deg, rgba(24, 186, 225, 0.15) 0%, rgba(24, 186, 225, 0.6) 34%, rgba(24, 186, 225, 0.6) 64%, rgba(24, 186, 225, 0.15) 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#welcomeDivText1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: white;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#welcomeDivText2 {
+    margin-top: 3px;
+    margin-bottom: 25px;
+
+    color: white;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#buttonWelcomeDiv {
+    margin-top: 3px;
+    margin-bottom: 15px;
+
+    border: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#mapsDiv {
+    width: 100vw;
+    padding-bottom: 40px;
+    background: rgb(24,186,225);
+    background: linear-gradient(0deg, rgba(24,186,225,0.30155812324929976) 0%, rgba(255,255,255,0) 100%);
+    border-top: white 2px solid;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mapsDiv > p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: #18bae1;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#googleMap {
+    border: none;
+    width: 90vw;
+    height: 60vh;
+}
+
+.box-iframe > iframe {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: -5px;
+}
+.scrolloff {
+    pointer-events: none;
+}
+
+#map {
+    height: 100%;
+}

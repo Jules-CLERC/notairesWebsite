@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+@media only screen and (orientation: landscape) {
+    form {
+        width: 60vw;
+    }
+
+    select {
+        padding: 12px 0px;
+    }
+
+    input:not(#input-text-mail){
+        padding: 12px 0px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    form > label {
+        font-size: 23px;
+    }
+
+    #input-text-mail {
+        height: 100px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    form {
+        width: 90vw;
+    }
+
+    select {
+        padding: 30px 0px;
+    }
+
+    input:not(#input-text-mail){
+        padding: 30px 0px;
+    }
+
+    ::placeholder {
+        font-size: 35px;
+    }
+
+    form > label {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #input-text-mail {
+        height: 250px;
+        font-size: 37px;
+    }
+
+    select {
+        font-size: 32px;
+    }
+
+    input:not(#input-text-mail) {
+        font-size: 32px;
+    }
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(94, 202, 230, 0.9);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input:not(#input-text-mail){
+    text-align: center;
+    background-color: #138FAD;
+    width: 50vw;
+    border: none;
+    border-bottom: 2px solid #18bae1;
+    border-radius: 4px;
+    margin: 5px;
+    color: white;
+}
+
+#form-gender {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#input-text-mail {
+    resize: none;
+    text-align: left;
+    background-color: #138FAD;
+    border: none;
+    border-bottom: 2px solid #18bae1;
+    border-radius: 4px;
+    margin: 5px;
+    color: white;
+    width: 50vw;
+}
+
+::placeholder {
+    color: #d9d8d8;
+    text-align: center;
+}
+
+select {
+    background-color: #138FAD;
+    width: 50vw;
+    border: none;
+    border-bottom: 2px solid #18bae1;
+    border-radius: 4px;
+    color: white;
+    text-align-last: center;
+}
+
+form > label {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    margin: 5px;
+}
+
+.form-group > label {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 23px;
+    margin: 5px;
+}
+
+.form-group > div > label {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 20px;
+}
+
+#divFormContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: no-repeat center url("../images/accueil.jpg");
+    background-size: cover;
+}
+
+#returnMail {
+    color: green;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+.g-recaptcha {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

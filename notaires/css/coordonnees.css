@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    color: #5ECAE6;
+    margin: 7px;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    color: #138FAD;
+    margin: 4px;
+}
+
+.title {
+    color: #285561;
+    font-size: 40px;
+}
+
+#div-coordonnees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-coordonnees > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+}
+
+#background-first {
+    background-image: url("../images/office-plan-large.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-bottom: 7px solid #18bae1;
+}
+
+#background-second {
+    background-image: url("../images/etudeSVT.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-coordonnees > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70vw;
+    border: 4px solid #18bae1;
+    border-radius: 15px;
+    background-color: rgba(245, 241, 241, 0.94);
+}
+
+.div-info-coordonnees {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#div-coordonnees > div > div >div:not(.div-info-coordonnees) {
+    background-color: #18bae11a;
+    border: 3px solid #18bae1;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.div-horaires {
+    margin: 30px;
+    border: 2px #18bae1;
+    border-style: dashed solid;
+    border-radius: 5px;
+}
+
+.div-horaires > h1 {
+    font-size: 25px;
+    color: #18bae1;
+}
+
+.div-horaires > h2 {
+    font-size: 20px;
+}
+
+.mail-adress {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #285561;
+    text-decoration: underline;
+}
+
+
+

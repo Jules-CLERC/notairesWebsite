@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+footer {
+    background-color: #285561;
+    padding: 1px;
+}
+
+@media only screen and (orientation: landscape) {
+    footer > div {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .column-footer {
+        width: 367px;
+    }
+
+    .column-footer > a {
+        font-size: 20px;
+        margin: 3px;
+    }
+
+    #footer-visio {
+        height: 55px;
+    }
+
+    #footer-dpd {
+        height: 40px;
+    }
+
+    #div-footer-images > a > img {
+        height: 40px;
+    }
+
+
+    #footer-button-contact {
+        font-size: 16px;
+        padding: 15px 32px;
+    }
+
+    #footer-mail {
+        height: 22px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    footer > div {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .column-footer {
+        width: 95vw;
+    }
+
+    #h1-title1 {
+        font-size: 70px;
+    }
+
+    .column-footer > h1 {
+        font-size: 70px;
+    }
+
+    .column-footer > h2 {
+        font-size: 60px;
+    }
+
+    .column-footer > h3 {
+        font-size: 50px;
+    }
+
+    .column-footer > div > div > h3 {
+        font-size: 50px;
+    }
+
+    .column-footer > a {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #h3-visio {
+        font-size: 50px;
+    }
+
+    #footer-dpd {
+        height: 80px;
+    }
+
+    #footer-visio {
+        height: 110px;
+    }
+
+    #div-footer-images > a > img {
+        height: 100px;
+    }
+
+    #footer-button-contact {
+        font-size: 54px;
+        padding: 45px 96px;
+    }
+
+    #footer-mail {
+        height: 66px;
+    }
+}
+
+
+.column-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.column-footer > h1 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #5ECAE6;
+}
+
+.column-footer > h2 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #18BAE1;
+}
+
+.column-footer > h3 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    margin: 2px;
+    color: #138FAD;
+}
+
+.column-footer > div > div > h3 {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    margin: 2px;
+    color: #138FAD;
+}
+
+.column-footer > div {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column-footer > a {
+    text-align: center;
+    border: #138FAD;
+    color: #138FAD;
+}
+
+.column-footer > a:hover:not(#a-contact){
+    border: #5ecfef;
+    color: rgb(47, 151, 224);
+}
+
+#footer-dpd {
+    background-color: white;
+    border-radius: 11px;
+    padding: 5px;
+}
+
+#footer-button-contact {
+    font-family: 'EB Garamond', serif;
+    background-color: #138FAD;
+    color: #f2f2f2;
+    border: #ebebeb 2px solid;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#footer-button-contact:hover {
+    background-color: #5ECAE6;
+    color: #f2f2f2;
+}
+
+#a-contact:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+#footer-button-contact > img:hover {
+    text-decoration: none;
+}
+
+#footer-mail {
+    margin-right: 8px;
+}
+
+#h1-title1 {
+    font-family: 'EB Garamond', serif;
+}
+
+#div-title1 {
+    margin-bottom: 16px;
+}
+
+#div-visio {
+    display: flex;
+    justify-content: center;
+}
+
+#div-main-visio {
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+
+#div-footer-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div-footer-images > a > img {
+    margin: 10px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300;700&display=swap');
+
+@media only screen and (orientation: landscape) {
+    .div-title > h1 {
+        font-size: 50px;
+    }
+
+    #div-services > a > div {
+        width: 200px;
+    }
+
+    #div-services > a > div > img {
+        width: 180px;
+    }
+
+    #div-services > a > div > h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .div-title > h1 {
+        font-size: 80px;
+    }
+
+    #div-services > a > div {
+        width: 400px;
+    }
+
+    #div-services > a > div > img {
+        width: 360px;
+    }
+
+    #div-services > a > div > h2 {
+        font-size: 50px;
+    }
+}
+
+#servicesNumeriques {
+    background-image: url("../images/facadeMougins.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-title {
+    background-color: #18bae1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-title > h1 {
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#div-services {
+    width: 80vw;
+    margin-left: 10vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-services > a {
+    text-decoration-color: rgba(255, 255, 255, 0);
+}
+
+#div-services > a > div {
+    padding: 13px;
+    margin: 20px;
+    background-color: rgba(24, 186, 225, 0.9);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-services > a > div:hover {
+    background-color: rgba(103, 202, 227, 0.9);
+}
+
+#div-services > a > div > h2 {
+    font-family: 'Neuton', serif;
+    text-align: center;
+    color: white;
+
+    text-decoration: none;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300;700&display=swap');
+
+@media only screen and (orientation: landscape) {
+    .div-title > h1 {
+        font-size: 50px;
+    }
+
+    #intro > p {
+        font-size: 25px;
+    }
+
+    .paragraph > h1 {
+        font-size: 34px;
+    }
+
+    .paragraph > p {
+        font-size: 20px;
+    }
+
+    .paragraph > ul > li {
+        font-size: 19px;
+    }
+
+    #div-liensUtiles > a > div {
+        width: 200px;
+    }
+
+    #div-liensUtiles > a > div > h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .div-title > h1 {
+        font-size: 80px;
+    }
+
+    iframe {
+        width: 90vw;
+        height: calc(90vw/1.7);
+    }
+
+    #intro > p {
+        font-size: 60px;
+    }
+
+    .paragraph > h1 {
+        font-size: 78px;
+    }
+
+    .paragraph > p {
+        font-size: 50px;
+    }
+
+    .paragraph > ul > li {
+        font-size: 48px;
+    }
+
+    #div-liensUtiles > a > div {
+        width: 400px;
+        min-height: 350px;
+    }
+
+    #div-liensUtiles > a > div > h2 {
+        font-size: 45px;
+    }
+}
+
+#missionsDuNotaire {
+    background-image: url("../images/paysageSVT2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+#div-missionsDuNotaire {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-text {
+    padding: 20px;
+    background-color: rgba(24, 186, 225, 0.88);
+    border-radius: 20px;
+    border: 5px solid #5ecfef;
+    max-width : 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#div-video {
+    margin: 20px;
+}
+
+#intro > p {
+    margin: 0px;
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.paragraph > h1 {
+    margin-left: 50px;
+
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.paragraph > p {
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.paragraph > ul > li {
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+.div-title {
+    background-color: #18bae1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-title > h1 {
+    color: white;
+    font-family: 'Neuton', serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#liensUtiles {
+    background-image: url("../images/salleReunionMougins.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-liensUtiles {
+    width: 80vw;
+    margin-left: 10vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#div-liensUtiles > a {
+    text-decoration-color: rgba(255, 255, 255, 0);
+}
+
+
+#div-liensUtiles > a > div {
+    padding: 13px;
+    margin: 20px;
+    background-color: rgba(24, 186, 225, 0.9);
+    border: 5px solid #5ecfef;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-liensUtiles > a > div:hover {
+    background-color: rgba(103, 202, 227, 0.9);
+}
+
+#div-liensUtiles > a > div > h2 {
+    font-family: 'Neuton', serif;
+    text-align: center;
+    color: white;
+
+    text-decoration: none;
+}
