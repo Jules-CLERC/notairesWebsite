@@ -47,6 +47,7 @@
                     <a href="contact.php">Nous contacter </a>
                     <ol class="sub-menu">
                         <li class="menu-item"><a href="coordonnees.php">Nos coordonnées</a></li>
+                        <li class="menu-item"><a href="rdv.php">Prendre rendez-vous</a></li>
                     </ol>
                 </li>
             </ol>

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+html {
+    background: no-repeat center url("../images/paysageSVT.jpg");
+    background-size: cover;
+}
+
+#containerCalendar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#calendar {
+    vertical-align: middle;
+
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 80vw;
+
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 8px;
+}
+
+#divButtonReturnOnCalender {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#calendarInfos {
+    height: 8%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #138FAD;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#currentDate > div > p {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 3.4vh;
+}
+
+#calendarContainer {
+    height: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#calendarContainer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: calc(90%/7);
+}
+
+#calendarContainer > div > div {
+    height: calc(80%/6);
+    border: 1px solid #d0d0d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#calendarContainer > div > div > div {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    color: #0B5061;
+}
+
+.numDate {
+    font-weight: bold;
+}
+
+.imgArrow {
+    width: 40px;
+}
+
+#currentDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#currentDate > div {
+    margin: 2px;
+}
+
+.undefinedCase {
+    background-color: #d9d9d9;
+}
+
+.infosCase {
+    align-items: center;
+    background-color: rgba(131, 201, 255, 0);
+}
+
+.infosCase > p {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    font-size: 140%;
+    color: #0B5061;
+}
+
+#hoursRDV {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hoursRDV > div {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    border: white 2px solid;
+    border-radius: 5px;
+    background-color: #138FAD;
+}
+
+#hoursRDV > div > p {
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    color: white;
+}
+
+#calendarResult {
+    z-index: 1;
+    left: 10vw;
+    right: 10vw;
+    bottom: 30vh;
+    top: 30vh;
+    position: absolute;
+    background-color: rgba(40, 85, 97, 0.95);
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#calendarResult > div > p {
+    font-size: 40px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#infosAndPay {
+    z-index: 2;
+    left: 10vw;
+    right: 10vw;
+    bottom: 5vh;
+    top: 27vh;
+    position: absolute;
+    background-color: rgba(40, 85, 97, 0.97);
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#infos {
+    height: 66%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#infos > p {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    text-align: center;
+}
+
+#pay {
+    height: 34%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pay > p {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    text-align: center;
+}
+
+#pay > button {
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #138FAD;
+    color: white;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#returnOnCalendar {
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #138FAD;
+    color: white;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#returnOnDay {
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #138FAD;
+    color: white;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#formVisio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#formPayment {
+    z-index: 3;
+    left: 10vw;
+    right: 10vw;
+    bottom: 20vh;
+    top: 20vh;
+    position: absolute;
+    background-color: #d0d0d0;
+
+    border: #18bae1 solid 2px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.labelVisio {
+    color: white;
+    font-size: 20px;
+}
+
+#p-rdvInfos {
+    font-size: 30px;
+    margin: 8px;
+}
+
+#p-rdvInfosSup {
+    font-size: 23px;
+}
+
+#p-rdvInfosSupResult {
+    font-size: 20px;
+}

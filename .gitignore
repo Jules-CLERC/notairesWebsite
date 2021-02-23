@@ -1,0 +1,4 @@
+
+notaires/php/requests/getInfosAndPay.php
+notaires/php/requests/getReservationsByDay.php
+notaires/php/requests/getReservationsByMonth.php
